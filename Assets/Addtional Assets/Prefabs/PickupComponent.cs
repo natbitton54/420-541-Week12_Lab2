@@ -23,16 +23,18 @@ namespace KartGame.KartSystems
         {
             if (other.tag == "Player")
             {
-                gameObject.SetActive(false);
+
+                // UNCOMMENT THIS
+                /*gameObject.SetActive(false);
                 Invoke("Reset",3.0f);
                
-                // UNCOMMENT THIS 
+                 
 
                 ArcadeKart ak = other.transform.parent.GetComponent<ArcadeKart>();
                 if (ak != null)
                 {
                     ak.AddPowerup(powerup);
-                }
+                }*/
 
                 // UNCOMMENT THIS 
             }
